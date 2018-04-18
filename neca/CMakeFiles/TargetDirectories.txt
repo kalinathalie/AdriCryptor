@@ -1,0 +1,3 @@
+/root/Desktop/FireShell/AdriCryptor/neca/CMakeFiles/rebuild_cache.dir
+/root/Desktop/FireShell/AdriCryptor/neca/CMakeFiles/neca.dir
+/root/Desktop/FireShell/AdriCryptor/neca/CMakeFiles/edit_cache.dir

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Desktop/FireShell/AdriCryptor/neca/src/arith.h
+cstdint
+-
+gmpxx.h
+-
+
+/root/Desktop/FireShell/AdriCryptor/neca/src/gmp_helpers.h
+gmpxx.h
+-
+
+/root/Desktop/FireShell/AdriCryptor/neca/src/main.cpp
+algorithm
+-
+array
+-
+chrono
+-
+cmath
+-
+iomanip
+-
+iostream
+-
+vector
+-
+gmpxx.h
+-
+gmp_helpers.h
+/root/Desktop/FireShell/AdriCryptor/neca/src/gmp_helpers.h
+arith.h
+/root/Desktop/FireShell/AdriCryptor/neca/src/arith.h
+

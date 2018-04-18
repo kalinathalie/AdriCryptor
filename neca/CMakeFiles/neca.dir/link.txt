@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/neca.dir/src/main.cpp.o  -o neca /usr/lib/x86_64-linux-gnu/libgmp.so /usr/lib/x86_64-linux-gnu/libgmpxx.so /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so -lpthread 
