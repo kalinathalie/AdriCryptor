@@ -4,6 +4,8 @@ import subprocess
 import requests
 import gmpy2
 from Crypto.Util.number import long_to_bytes
+import itertools
+from enigma.machine import EnigmaMachine
 
 def header():
     print "              _      _  _____                  _             "
@@ -97,6 +99,20 @@ def transposition():
     exit(1)
 
 def enigma():
+    cipher = raw_input("Enter CIPHER: ")
+    reflector = raw_input("Enter REFLECTOR: ")
+    rotors = raw_input("Enter ROTORS: ")
+    ring = raw_input("Enter RINGS: ")
+    plug = raw_input("Enter PLUGBOARD: ")
+    machine = EnigmaMachine.from_key_sheet(
+       rotors=rotors,
+       reflector=reflector,
+       ring_settings=ring,
+       plugboard_settings=plug)
+
+
+    machine.set_display("LWB")
+    print machine.process_text(text)
     exit(1)
 
 def rsa():
