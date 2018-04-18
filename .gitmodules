@@ -1,0 +1,3 @@
+[submodule "neca"]
+	path = neca
+	url = https://gitlab.com/jix/neca
