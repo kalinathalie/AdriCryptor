@@ -1,7 +1,7 @@
 from sys import platform
 import os
 import subprocess
-import request
+import requests
 import gmpy2
 from Crypto.Util.number import long_to_bytes
 
@@ -100,25 +100,40 @@ def enigma():
     exit(1)
 
 def rsa():
-    print "Do you know the N?"
-    print "1)YES"
-    print "2)NO"
+    print "What do you want to do?"
+    print "1)decrypt"
+    print "2)encrypt"
+    print "3)factor N"
     know = raw_input("Enter option: ")
-    
-    C = raw_input("Enter your ciphertext: ")
-    E = raw_input("Enter your expoent")
-    P = raw_input("Enter your first prime")
-    Q = raw_input("Enter your second prime")
-    N = P*Q
-    phi = (P - 1) * (Q - 1)
-    D = int(gmpy2.invert(E, phi))
-    M = pow(C, D, N)
-    print long_to_bytes(M)
+    if know == "1":
+    	C = raw_input("Enter your ciphertext: ")
+    	E = raw_input("Enter your expoent: ")
+    	P = raw_input("Enter your first prime: ")
+    	Q = raw_input("Enter your second prime: ")
+    	N = P*Q
+    	phi = (P - 1) * (Q - 1)
+    	D = int(gmpy2.invert(E, phi))
+    	M = pow(C, D, N)
+    	print long_to_bytes(M)
+    elif know == "2":
+    	print "enc"
+    elif know == "3":
+    	number = raw_input("Enter your N number: ")
+    	if(factordb(number)):
+    		exit(1)
+
 
 def factordb(number):
-    r = request.get("https://factordb.com/index.php?query="+number, verify=False)
-    vetor = r.text.split("index.php?id=")
-    print vetor
+    r = requests.get("https://factordb.com/index.php?query="+number, verify=False)
+    vector = r.text.split("index.php?id=")
+    if "middot" in vector[2]:
+    	p = vector[2].split("\"")[0]
+    	q = vector[3].split("\"")[0]
+    	print "First prime: " + p
+    	print "Second prime: " + q
+    	return True
+    else:
+    	return False
 
 def alphabetic_cipher():
     print "\nChoose the cipher!"

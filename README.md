@@ -5,7 +5,7 @@ ctf multi crypto tool
 -Ceaser
 -Vignere
 
-#Todo:
+# Todo:
 -Transposition
 -Enigma
 -RSA
