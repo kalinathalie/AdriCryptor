@@ -1,0 +1,958 @@
+10/22/17 20:56:09 v1.34.5 @ P4V1, 
+10/22/17 20:56:09 v1.34.5 @ P4V1, ****************************
+10/22/17 20:56:09 v1.34.5 @ P4V1, Starting factorization of 171996052064283111843964589052488861849
+10/22/17 20:56:09 v1.34.5 @ P4V1, using pretesting plan: normal
+10/22/17 20:56:09 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+10/22/17 20:56:09 v1.34.5 @ P4V1, ****************************
+10/22/17 20:56:09 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C39
+10/22/17 20:56:09 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C39
+10/22/17 20:56:09 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C39
+10/22/17 20:56:09 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C39
+10/22/17 20:56:09 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+10/22/17 20:56:09 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 12.00
+10/22/17 20:56:10 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C39 input, B1=2K, B2=gmp-ecm default
+10/22/17 20:56:10 v1.34.5 @ P4V1, final ECM pretested depth: 15.18
+10/22/17 20:56:10 v1.34.5 @ P4V1, scheduler: switching to sieve method
+10/22/17 20:56:10 v1.34.5 @ P4V1, starting SIQS on c39: 171996052064283111843964589052488861849
+10/22/17 20:56:10 v1.34.5 @ P4V1, random seeds: 235666380, 2736702823
+10/22/17 20:56:10 v1.34.5 @ P4V1, ==== sieve params ====
+10/22/17 20:56:10 v1.34.5 @ P4V1, n = 40 digits, 133 bits
+10/22/17 20:56:10 v1.34.5 @ P4V1, factor base: 560 primes (max prime = 8443)
+10/22/17 20:56:10 v1.34.5 @ P4V1, single large prime cutoff: 422150 (50 * pmax)
+10/22/17 20:56:10 v1.34.5 @ P4V1, using 32k sieve core
+10/22/17 20:56:10 v1.34.5 @ P4V1, sieve interval: 1 blocks of size 32768
+10/22/17 20:56:10 v1.34.5 @ P4V1, polynomial A has ~ 4 factors
+10/22/17 20:56:10 v1.34.5 @ P4V1, using multiplier of 41
+10/22/17 20:56:10 v1.34.5 @ P4V1, using SPV correction of 20 bits, starting at offset 31
+10/22/17 20:56:10 v1.34.5 @ P4V1, using SSE2 for trial division and x32 sieve scanning
+10/22/17 20:56:10 v1.34.5 @ P4V1, using SSE4.1 enabled 32k sieve core
+10/22/17 20:56:10 v1.34.5 @ P4V1, using SSE2 for resieving 13-16 bit primes
+10/22/17 20:56:10 v1.34.5 @ P4V1, trial factoring cutoff at 36 bits
+10/22/17 20:56:10 v1.34.5 @ P4V1, ==== sieving started (1 thread) ====
+10/22/17 20:56:10 v1.34.5 @ P4V1, trial division touched 19552 sieve locations out of 8716288
+10/22/17 20:56:10 v1.34.5 @ P4V1, 633 relations found: 336 full + 297 from 2422 partial, using 133 polys (18 A polys)
+10/22/17 20:56:10 v1.34.5 @ P4V1, on average, sieving found 20.74 rels/poly and 32458.13 rels/sec
+10/22/17 20:56:10 v1.34.5 @ P4V1, trial division touched 19552 sieve locations out of 8716288
+10/22/17 20:56:10 v1.34.5 @ P4V1, ==== post processing stage (msieve-1.38) ====
+10/22/17 20:56:10 v1.34.5 @ P4V1, begin with 2758 relations
+10/22/17 20:56:10 v1.34.5 @ P4V1, reduce to 895 relations in 2 passes
+10/22/17 20:56:10 v1.34.5 @ P4V1, recovered 895 relations
+10/22/17 20:56:10 v1.34.5 @ P4V1, recovered 133 polynomials
+10/22/17 20:56:10 v1.34.5 @ P4V1, freed 5 duplicate relations
+10/22/17 20:56:10 v1.34.5 @ P4V1, attempting to build 628 cycles
+10/22/17 20:56:10 v1.34.5 @ P4V1, found 628 cycles in 1 passes
+10/22/17 20:56:10 v1.34.5 @ P4V1, distribution of cycle lengths:
+10/22/17 20:56:10 v1.34.5 @ P4V1,    length 1 : 336
+10/22/17 20:56:10 v1.34.5 @ P4V1,    length 2 : 292
+10/22/17 20:56:10 v1.34.5 @ P4V1, largest cycle: 2 relations
+10/22/17 20:56:10 v1.34.5 @ P4V1, matrix is 560 x 628 (0.1 MB) with weight 10883 (17.33/col)
+10/22/17 20:56:10 v1.34.5 @ P4V1, sparse part has weight 10883 (17.33/col)
+10/22/17 20:56:10 v1.34.5 @ P4V1, filtering completed in 2 passes
+10/22/17 20:56:10 v1.34.5 @ P4V1, matrix is 537 x 601 (0.1 MB) with weight 10279 (17.10/col)
+10/22/17 20:56:10 v1.34.5 @ P4V1, sparse part has weight 10279 (17.10/col)
+10/22/17 20:56:10 v1.34.5 @ P4V1, commencing Lanczos iteration
+10/22/17 20:56:10 v1.34.5 @ P4V1, memory use: 0.1 MB
+10/22/17 20:56:10 v1.34.5 @ P4V1, lanczos halted after 10 iterations (dim = 531)
+10/22/17 20:56:10 v1.34.5 @ P4V1, recovered 61 nontrivial dependencies
+10/22/17 20:56:10 v1.34.5 @ P4V1, prp20 = 11760701343804754303
+10/22/17 20:56:10 v1.34.5 @ P4V1, prp20 = 14624642445740394983
+10/22/17 20:56:10 v1.34.5 @ P4V1, Lanczos elapsed time = 0.0100 seconds.
+10/22/17 20:56:10 v1.34.5 @ P4V1, Sqrt elapsed time = 0.0010 seconds.
+10/22/17 20:56:10 v1.34.5 @ P4V1, SIQS elapsed time = 0.0951 seconds.
+10/22/17 20:56:10 v1.34.5 @ P4V1, 
+10/22/17 20:56:10 v1.34.5 @ P4V1, 
+10/22/17 20:56:10 v1.34.5 @ P4V1, Total factoring time = 0.2753 seconds
+10/22/17 20:56:31 v1.34.5 @ P4V1, 
+10/22/17 20:56:31 v1.34.5 @ P4V1, ****************************
+10/22/17 20:56:31 v1.34.5 @ P4V1, Starting factorization of 1062298437646102178982125849777616556940568446813929092985586137589152470725381990531187697078820602673983926292915001934764080223025406544777312096563547373014612492919701398580259368151634974370089837459356819607567494260480572449
+10/22/17 20:56:31 v1.34.5 @ P4V1, using pretesting plan: normal
+10/22/17 20:56:31 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+10/22/17 20:56:31 v1.34.5 @ P4V1, ****************************
+10/22/17 20:56:31 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C232
+10/22/17 20:56:31 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C232
+10/22/17 20:56:31 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C232
+10/22/17 20:56:31 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C232
+10/22/17 20:56:31 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+10/22/17 20:56:31 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 71.38
+10/22/17 20:56:31 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C232 input, B1=2K, B2=gmp-ecm default
+10/22/17 20:56:31 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+10/22/17 20:56:31 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 71.38
+10/22/17 20:56:36 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C232 input, B1=11K, B2=gmp-ecm default
+10/22/17 20:56:36 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+10/22/17 20:56:36 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 71.38
+10/22/17 20:57:32 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C232 input, B1=50K, B2=gmp-ecm default
+10/22/17 20:57:32 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C232
+10/22/17 20:57:35 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+10/22/17 20:57:35 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 71.38
+10/22/17 21:06:17 v1.34.5 @ P4V1, Finished 430 curves using Lenstra ECM method on C232 input, B1=250K, B2=gmp-ecm default
+10/22/17 21:06:17 v1.34.5 @ P4V1, pm1: starting B1 = 15M, B2 = gmp-ecm default on C232
+10/22/17 21:06:25 v1.34.5 @ P4V1, current ECM pretesting depth: 30.45
+10/22/17 21:06:25 v1.34.5 @ P4V1, scheduled 904 curves at B1=1000000 toward target pretesting depth of 71.38
+10/22/17 22:19:25 v1.34.5 @ P4V1, Finished 904 curves using Lenstra ECM method on C232 input, B1=1M, B2=gmp-ecm default
+10/22/17 22:19:25 v1.34.5 @ P4V1, current ECM pretesting depth: 35.56
+10/22/17 22:19:25 v1.34.5 @ P4V1, scheduled 2350 curves at B1=3000000 toward target pretesting depth of 71.38
+11/24/17 23:25:49 v1.34.5 @ P4V1, 
+11/24/17 23:25:49 v1.34.5 @ P4V1, ****************************
+11/24/17 23:25:49 v1.34.5 @ P4V1, Starting factorization of 542800573380084826910381
+11/24/17 23:25:49 v1.34.5 @ P4V1, using pretesting plan: normal
+11/24/17 23:25:49 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+11/24/17 23:25:49 v1.34.5 @ P4V1, ****************************
+11/24/17 23:25:49 v1.34.5 @ P4V1, div: found prime factor = 2693
+11/24/17 23:25:49 v1.34.5 @ P4V1, prp21 = 201559811875263582217
+11/24/17 23:25:49 v1.34.5 @ P4V1, Total factoring time = 0.0268 seconds
+12/02/17 15:24:28 v1.34.5 @ P4V1, 
+12/02/17 15:24:28 v1.34.5 @ P4V1, ****************************
+12/02/17 15:24:28 v1.34.5 @ P4V1, Starting factorization of 65561
+12/02/17 15:24:28 v1.34.5 @ P4V1, using pretesting plan: normal
+12/02/17 15:24:28 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/02/17 15:24:28 v1.34.5 @ P4V1, ****************************
+12/02/17 15:24:28 v1.34.5 @ P4V1, div: found prime factor = 53
+12/02/17 15:24:28 v1.34.5 @ P4V1, div: found prime factor = 1237
+12/02/17 15:24:28 v1.34.5 @ P4V1, Total factoring time = 0.0403 seconds
+12/02/17 15:36:39 v1.34.5 @ P4V1, 
+12/02/17 15:36:39 v1.34.5 @ P4V1, ****************************
+12/02/17 15:36:39 v1.34.5 @ P4V1, Starting factorization of 1230186684530117755130494958384962720772853569595334792197322452151726400507263657518745202199786469389956474942774063845925192557326303453731548268507917026122142913461670429214311602221240479274737794080665351419597459856902143413
+12/02/17 15:36:39 v1.34.5 @ P4V1, using pretesting plan: normal
+12/02/17 15:36:39 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/02/17 15:36:39 v1.34.5 @ P4V1, ****************************
+12/02/17 15:36:39 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C232
+12/02/17 15:36:39 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C232
+12/02/17 15:36:39 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C232
+12/02/17 15:36:39 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C232
+12/02/17 15:36:40 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/02/17 15:36:40 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 71.38
+12/02/17 15:36:40 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C232 input, B1=2K, B2=gmp-ecm default
+12/02/17 15:36:40 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/02/17 15:36:40 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 71.38
+12/02/17 15:36:48 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C232 input, B1=11K, B2=gmp-ecm default
+12/02/17 15:36:48 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/02/17 15:36:48 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 71.38
+12/03/17 01:52:18 v1.34.5 @ P4V1, 
+12/03/17 01:52:18 v1.34.5 @ P4V1, ****************************
+12/03/17 01:52:18 v1.34.5 @ P4V1, Starting factorization of 11752848682778940016535503659775749977226770133614452861836208325736151376380623883179011365571588288171872533249183083152884658185272486338400132922512214995576218728266094370826784179177284932519682299252713590739032247408702265637233673757413580345474
+12/03/17 01:52:18 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 01:52:18 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 01:52:18 v1.34.5 @ P4V1, ****************************
+12/03/17 01:52:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 01:52:19 v1.34.5 @ P4V1, div: found prime factor = 2129
+12/03/17 01:52:19 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C250
+12/03/17 01:52:19 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C250
+12/03/17 01:52:19 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C250
+12/03/17 01:52:19 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C250
+12/03/17 01:52:19 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 01:52:19 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 76.92
+12/03/17 01:52:19 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C250 input, B1=2K, B2=gmp-ecm default
+12/03/17 01:52:19 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/03/17 01:52:19 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 76.92
+12/03/17 01:52:22 v1.34.5 @ P4V1, prp22 = 3205178769313175607191 (curve 37 stg2 B1=11000 sigma=145730149 thread=0)
+12/03/17 01:52:22 v1.34.5 @ P4V1, Finished 37 curves using Lenstra ECM method on C250 input, B1=11K, B2=gmp-ecm default
+12/03/17 01:52:22 v1.34.5 @ P4V1, current ECM pretesting depth: 17.68
+12/03/17 01:52:22 v1.34.5 @ P4V1, scheduled 37 curves at B1=11000 toward target pretesting depth of 70.15
+12/03/17 01:52:25 v1.34.5 @ P4V1, Finished 37 curves using Lenstra ECM method on C228 input, B1=11K, B2=gmp-ecm default
+12/03/17 01:52:25 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/03/17 01:52:25 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 70.15
+12/03/17 01:52:40 v1.34.5 @ P4V1, prp22 = 7086321546357826776371 (curve 61 stg2 B1=50000 sigma=12376237 thread=0)
+12/03/17 01:52:40 v1.34.5 @ P4V1, Finished 61 curves using Lenstra ECM method on C228 input, B1=50K, B2=gmp-ecm default
+12/03/17 01:52:40 v1.34.5 @ P4V1, current ECM pretesting depth: 21.67
+12/03/17 01:52:40 v1.34.5 @ P4V1, scheduled 153 curves at B1=50000 toward target pretesting depth of 63.69
+12/03/17 01:52:41 v1.34.5 @ P4V1, prp207 = 121524648998481853139756559040915969955085360488281194606753171631245659243932797327908745994904724949533808935233352950579019878359562635255246009724729031991088431780297628926930126023321109649819415883373
+12/03/17 01:52:41 v1.34.5 @ P4V1, Total factoring time = 22.9602 seconds
+12/03/17 02:29:14 v1.34.5 @ P4V1, 
+12/03/17 02:29:14 v1.34.5 @ P4V1, ****************************
+12/03/17 02:29:14 v1.34.5 @ P4V1, Starting factorization of 15012609384250219874677875435291183380996259887801084362959689829793222820134760849765791998362570297144822180464823226497176797573924507385893298639389936970609654009208449211712524653396481688098765049753795004757286133915930065553473346650316038234942894495434455505706415219264874108132945199942497009318662312261285017458955601407708432421306656177311165962626469501149556920141649893075576065182442722565993670091384298304208560718934089830554216153181578651271817639734178379386792901071212521730951208634247651506838688837039218543506015273510119988575723357218697432626850682052021919641749097620521669376865644271405225686919943046358746932323787615218639765186753354460963203088883514851667268021038592274551957739329067941888
+12/03/17 02:29:14 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 02:29:14 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 02:29:14 v1.34.5 @ P4V1, ****************************
+12/03/17 02:29:14 v1.34.5 @ P4V1, 
+12/03/17 02:29:14 v1.34.5 @ P4V1, ****************************
+12/03/17 02:29:14 v1.34.5 @ P4V1, Starting factorization of 20160320062715081415090715200318010311050428
+12/03/17 02:29:14 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 02:29:14 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 02:29:14 v1.34.5 @ P4V1, ****************************
+12/03/17 02:29:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, div: found prime factor = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C40
+12/03/17 02:29:14 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C40
+12/03/17 02:29:14 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C40
+12/03/17 02:29:14 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C40
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 02:29:14 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 8.92
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963 (curve 8 stg2 B1=2000 sigma=314723885 thread=0)
+12/03/17 02:29:14 v1.34.5 @ P4V1, Finished 8 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+12/03/17 02:29:14 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 02:29:14 v1.34.5 @ P4V1, scheduled 22 curves at B1=2000 toward target pretesting depth of 5.54
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, Total factoring time = 0.1041 seconds
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, input is a perfect power
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp1 = 2
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp3 = 907
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp11 = 60565451333
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp12 = 423702676963
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 02:29:14 v1.34.5 @ P4V1, prp18 = 216542914837142819
+12/03/17 03:20:48 v1.34.5 @ P4V1, 
+12/03/17 03:20:48 v1.34.5 @ P4V1, ****************************
+12/03/17 03:20:48 v1.34.5 @ P4V1, Starting factorization of 931866231226128501745895560140770843242130665617731116596262646950114955692014164989307557606518244272256599367
+12/03/17 03:20:48 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 03:20:48 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 03:20:48 v1.34.5 @ P4V1, ****************************
+12/03/17 03:20:48 v1.34.5 @ P4V1, div: found prime factor = 7
+12/03/17 03:20:48 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 03:20:48 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 03:20:48 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 03:20:48 v1.34.5 @ P4V1, prp107 = 60593421628592788981461444836515432943762966748015548253869734504851743006178175758456827986638809042997373
+12/03/17 03:20:49 v1.34.5 @ P4V1, Total factoring time = 0.1339 seconds
+12/03/17 03:22:31 v1.34.5 @ P4V1, 
+12/03/17 03:22:31 v1.34.5 @ P4V1, ****************************
+12/03/17 03:22:31 v1.34.5 @ P4V1, Starting factorization of 65553473346650316038234942894495434455505706415219264874108132945199942497
+12/03/17 03:22:31 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 03:22:31 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 03:22:31 v1.34.5 @ P4V1, ****************************
+12/03/17 03:22:31 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C74
+12/03/17 03:22:31 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C74
+12/03/17 03:22:31 v1.34.5 @ P4V1, prp8 = 19661717
+12/03/17 03:22:31 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C67
+12/03/17 03:22:31 v1.34.5 @ P4V1, prp8 = 15788897
+12/03/17 03:22:31 v1.34.5 @ P4V1, prp60 = 211165261854408634277122469690992747881384653882862398443453
+12/03/17 03:22:31 v1.34.5 @ P4V1, Total factoring time = 0.0400 seconds
+12/03/17 03:23:09 v1.34.5 @ P4V1, 
+12/03/17 03:23:09 v1.34.5 @ P4V1, ****************************
+12/03/17 03:23:09 v1.34.5 @ P4V1, Starting factorization of 65553473346650316038234942894495434455505706415219264874108132945199942497
+12/03/17 03:23:09 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 03:23:09 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 03:23:09 v1.34.5 @ P4V1, ****************************
+12/03/17 03:23:09 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C74
+12/03/17 03:23:09 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C74
+12/03/17 03:23:09 v1.34.5 @ P4V1, prp8 = 19661717
+12/03/17 03:23:09 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C67
+12/03/17 03:23:09 v1.34.5 @ P4V1, prp8 = 15788897
+12/03/17 03:23:09 v1.34.5 @ P4V1, prp60 = 211165261854408634277122469690992747881384653882862398443453
+12/03/17 03:23:09 v1.34.5 @ P4V1, Total factoring time = 0.0411 seconds
+12/03/17 03:27:14 v1.34.5 @ P4V1, 
+12/03/17 03:27:14 v1.34.5 @ P4V1, ****************************
+12/03/17 03:27:14 v1.34.5 @ P4V1, Starting factorization of 91384298304208560718934089830554216153181578651271817639734178379386792901071212521730951208634247651506838688837039218543506015273510119988575723357218697432626850682052021919641749097620521669376865644271405225686919943046358746932323787615218639765186753354460963203088883514851667268021038592274551957739329067941888
+12/03/17 03:27:14 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 03:27:14 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 03:27:14 v1.34.5 @ P4V1, ****************************
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 03:27:14 v1.34.5 @ P4V1, div: found prime factor = 41
+12/03/17 03:27:14 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C309
+12/03/17 03:27:14 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C309
+12/03/17 03:27:14 v1.34.5 @ P4V1, prp6 = 414433
+12/03/17 03:27:14 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C303
+12/03/17 03:27:14 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C303
+12/03/17 03:27:14 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C303
+12/03/17 03:27:14 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 03:27:14 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 93.23
+12/03/17 03:27:15 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C303 input, B1=2K, B2=gmp-ecm default
+12/03/17 03:27:15 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/03/17 03:27:15 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 93.23
+12/03/17 03:27:22 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C303 input, B1=11K, B2=gmp-ecm default
+12/03/17 03:27:22 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/03/17 03:27:22 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 93.23
+12/03/17 03:28:46 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C303 input, B1=50K, B2=gmp-ecm default
+12/03/17 03:28:46 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C303
+12/03/17 03:28:50 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+12/03/17 03:28:50 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 93.23
+12/03/17 14:16:19 v1.34.5 @ P4V1, 
+12/03/17 14:16:19 v1.34.5 @ P4V1, ****************************
+12/03/17 14:16:19 v1.34.5 @ P4V1, Starting factorization of 91384298304208560718934089830554216153181578651271817639734178379386792901071212521730951208634247651506838688837039218543506015273510119988575723357218697432626850682052021919641749097620521669376865644271405225686919943046358746932323787615218639765186753354460963203088883514851667268021038592274551957739329067941888
+12/03/17 14:16:19 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 14:16:19 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 14:16:19 v1.34.5 @ P4V1, ****************************
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 2
+12/03/17 14:16:19 v1.34.5 @ P4V1, div: found prime factor = 41
+12/03/17 14:16:19 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C309
+12/03/17 14:16:19 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C309
+12/03/17 14:16:19 v1.34.5 @ P4V1, prp6 = 414433
+12/03/17 14:16:19 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C303
+12/03/17 14:16:19 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C303
+12/03/17 14:16:19 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C303
+12/03/17 14:16:19 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 14:16:19 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 93.23
+12/03/17 14:16:20 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C303 input, B1=2K, B2=gmp-ecm default
+12/03/17 14:16:20 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/03/17 14:16:20 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 93.23
+12/03/17 14:16:27 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C303 input, B1=11K, B2=gmp-ecm default
+12/03/17 14:16:27 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/03/17 14:16:27 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 93.23
+12/03/17 14:17:58 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C303 input, B1=50K, B2=gmp-ecm default
+12/03/17 14:17:58 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C303
+12/03/17 14:18:02 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+12/03/17 14:18:02 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 93.23
+12/03/17 14:22:46 v1.34.5 @ P4V1, 
+12/03/17 14:22:46 v1.34.5 @ P4V1, ****************************
+12/03/17 14:22:46 v1.34.5 @ P4V1, Starting factorization of 931866231226128501745895560140770843242130665617731116596262646950114955692014164989307557606518244272256599367
+12/03/17 14:22:46 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 14:22:46 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 14:22:46 v1.34.5 @ P4V1, ****************************
+12/03/17 14:22:46 v1.34.5 @ P4V1, div: found prime factor = 7
+12/03/17 14:22:46 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 14:22:46 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 14:22:46 v1.34.5 @ P4V1, div: found prime factor = 13
+12/03/17 14:22:46 v1.34.5 @ P4V1, prp107 = 60593421628592788981461444836515432943762966748015548253869734504851743006178175758456827986638809042997373
+12/03/17 14:22:46 v1.34.5 @ P4V1, Total factoring time = 0.1379 seconds
+12/03/17 16:09:07 v1.34.5 @ P4V1, 
+12/03/17 16:09:07 v1.34.5 @ P4V1, ****************************
+12/03/17 16:09:07 v1.34.5 @ P4V1, Starting factorization of 6042658905526422401554086245907021663378205180120458316404364558912276150255949537237034099579080012578254361831444988246749725036888264210762091337858988561580036383278535216069683475110645108758905581292484591
+12/03/17 16:09:07 v1.34.5 @ P4V1, using pretesting plan: normal
+12/03/17 16:09:07 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/03/17 16:09:07 v1.34.5 @ P4V1, ****************************
+12/03/17 16:09:07 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C211
+12/03/17 16:09:07 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C211
+12/03/17 16:09:07 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C211
+12/03/17 16:09:07 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C211
+12/03/17 16:09:07 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 16:09:07 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 64.92
+12/03/17 16:09:07 v1.34.5 @ P4V1, prp16 = 1168290906386581 (curve 20 stg2 B1=2000 sigma=1556100879 thread=0)
+12/03/17 16:09:07 v1.34.5 @ P4V1, Finished 20 curves using Lenstra ECM method on C211 input, B1=2K, B2=gmp-ecm default
+12/03/17 16:09:07 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/03/17 16:09:07 v1.34.5 @ P4V1, scheduled 10 curves at B1=2000 toward target pretesting depth of 60.31
+12/03/17 16:09:08 v1.34.5 @ P4V1, Finished 10 curves using Lenstra ECM method on C196 input, B1=2K, B2=gmp-ecm default
+12/03/17 16:09:08 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/03/17 16:09:08 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 60.31
+12/03/17 16:09:12 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C196 input, B1=11K, B2=gmp-ecm default
+12/03/17 16:09:12 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/03/17 16:09:12 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 60.31
+12/03/17 16:09:59 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C196 input, B1=50K, B2=gmp-ecm default
+12/03/17 16:09:59 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C196
+12/03/17 16:10:01 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+12/03/17 16:10:01 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 60.31
+12/15/17 22:58:14 v1.34.5 @ P4V1, 
+12/15/17 22:58:14 v1.34.5 @ P4V1, ****************************
+12/15/17 22:58:14 v1.34.5 @ P4V1, Starting factorization of 107794757594075833151238056001942203657877423915508846053340735546290486113897
+12/15/17 22:58:14 v1.34.5 @ P4V1, using pretesting plan: normal
+12/15/17 22:58:14 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/15/17 22:58:14 v1.34.5 @ P4V1, ****************************
+12/15/17 22:58:14 v1.34.5 @ P4V1, prp78 = 107794757594075833151238056001942203657877423915508846053340735546290486113897
+12/15/17 22:58:14 v1.34.5 @ P4V1, Total factoring time = 0.0963 seconds
+12/16/17 15:10:01 v1.34.5 @ P4V1, 
+12/16/17 15:10:01 v1.34.5 @ P4V1, ****************************
+12/16/17 15:10:01 v1.34.5 @ P4V1, Starting factorization of 1966398995498311774445664711694531151009590767211108609204317096702599234205347
+12/16/17 15:10:01 v1.34.5 @ P4V1, using pretesting plan: normal
+12/16/17 15:10:01 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+12/16/17 15:10:01 v1.34.5 @ P4V1, ****************************
+12/16/17 15:10:01 v1.34.5 @ P4V1, div: found prime factor = 1493
+12/16/17 15:10:01 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C76
+12/16/17 15:10:01 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C76
+12/16/17 15:10:01 v1.34.5 @ P4V1, prp5 = 31849
+12/16/17 15:10:01 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C71
+12/16/17 15:10:01 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C71
+12/16/17 15:10:02 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C71
+12/16/17 15:10:02 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+12/16/17 15:10:02 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 21.85
+12/16/17 15:10:02 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C71 input, B1=2K, B2=gmp-ecm default
+12/16/17 15:10:02 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+12/16/17 15:10:02 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 21.85
+12/16/17 15:10:03 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C71 input, B1=11K, B2=gmp-ecm default
+12/16/17 15:10:03 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+12/16/17 15:10:03 v1.34.5 @ P4V1, scheduled 69 curves at B1=50000 toward target pretesting depth of 21.85
+12/16/17 15:10:09 v1.34.5 @ P4V1, Finished 69 curves using Lenstra ECM method on C71 input, B1=50K, B2=gmp-ecm default
+12/16/17 15:10:09 v1.34.5 @ P4V1, final ECM pretested depth: 21.86
+12/16/17 15:10:09 v1.34.5 @ P4V1, scheduler: switching to sieve method
+12/16/17 15:10:09 v1.34.5 @ P4V1, starting SIQS on c71: 41353858283895849515404513804002993088169098991019360913150125595849471
+12/16/17 15:10:09 v1.34.5 @ P4V1, random seeds: 1632662272, 2125397146
+12/16/17 15:10:09 v1.34.5 @ P4V1, ==== sieve params ====
+12/16/17 15:10:09 v1.34.5 @ P4V1, n = 73 digits, 240 bits
+12/16/17 15:10:09 v1.34.5 @ P4V1, factor base: 14816 primes (max prime = 344759)
+12/16/17 15:10:09 v1.34.5 @ P4V1, single large prime cutoff: 25856925 (75 * pmax)
+12/16/17 15:10:09 v1.34.5 @ P4V1, allocating 5 large prime slices of factor base
+12/16/17 15:10:09 v1.34.5 @ P4V1, buckets hold 2048 elements
+12/16/17 15:10:09 v1.34.5 @ P4V1, using 32k sieve core
+12/16/17 15:10:09 v1.34.5 @ P4V1, sieve interval: 8 blocks of size 32768
+12/16/17 15:10:09 v1.34.5 @ P4V1, polynomial A has ~ 9 factors
+12/16/17 15:10:09 v1.34.5 @ P4V1, using multiplier of 39
+12/16/17 15:10:09 v1.34.5 @ P4V1, using SPV correction of 21 bits, starting at offset 39
+12/16/17 15:10:09 v1.34.5 @ P4V1, using SSE2 for trial division and x64 sieve scanning
+12/16/17 15:10:09 v1.34.5 @ P4V1, using SSE4.1 enabled 32k sieve core
+12/16/17 15:10:09 v1.34.5 @ P4V1, using SSE2 for resieving 13-16 bit primes
+12/16/17 15:10:09 v1.34.5 @ P4V1, trial factoring cutoff at 84 bits
+12/16/17 15:10:09 v1.34.5 @ P4V1, ==== sieving started (1 thread) ====
+12/16/17 15:10:31 v1.34.5 @ P4V1, trial division touched 795774 sieve locations out of 17312514048
+12/16/17 15:10:31 v1.34.5 @ P4V1, 14898 relations found: 7760 full + 7138 from 72414 partial, using 33021 polys (258 A polys)
+12/16/17 15:10:31 v1.34.5 @ P4V1, on average, sieving found 2.43 rels/poly and 3598.89 rels/sec
+12/16/17 15:10:31 v1.34.5 @ P4V1, trial division touched 795774 sieve locations out of 17312514048
+12/16/17 15:10:31 v1.34.5 @ P4V1, ==== post processing stage (msieve-1.38) ====
+12/16/17 15:10:31 v1.34.5 @ P4V1, begin with 80174 relations
+12/16/17 15:10:31 v1.34.5 @ P4V1, reduce to 21161 relations in 2 passes
+12/16/17 15:10:31 v1.34.5 @ P4V1, recovered 21161 relations
+12/16/17 15:10:31 v1.34.5 @ P4V1, recovered 15678 polynomials
+12/16/17 15:10:31 v1.34.5 @ P4V1, freed 4 duplicate relations
+12/16/17 15:10:31 v1.34.5 @ P4V1, attempting to build 14894 cycles
+12/16/17 15:10:31 v1.34.5 @ P4V1, found 14894 cycles in 1 passes
+12/16/17 15:10:31 v1.34.5 @ P4V1, distribution of cycle lengths:
+12/16/17 15:10:31 v1.34.5 @ P4V1,    length 1 : 7760
+12/16/17 15:10:31 v1.34.5 @ P4V1,    length 2 : 7134
+12/16/17 15:10:31 v1.34.5 @ P4V1, largest cycle: 2 relations
+12/16/17 15:10:31 v1.34.5 @ P4V1, matrix is 14816 x 14894 (2.0 MB) with weight 415268 (27.88/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, sparse part has weight 415268 (27.88/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, filtering completed in 3 passes
+12/16/17 15:10:31 v1.34.5 @ P4V1, matrix is 13008 x 13072 (1.8 MB) with weight 357958 (27.38/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, sparse part has weight 357958 (27.38/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, saving the first 48 matrix rows for later
+12/16/17 15:10:31 v1.34.5 @ P4V1, matrix is 12960 x 13072 (1.5 MB) with weight 282885 (21.64/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, sparse part has weight 253968 (19.43/col)
+12/16/17 15:10:31 v1.34.5 @ P4V1, matrix includes 64 packed rows
+12/16/17 15:10:31 v1.34.5 @ P4V1, commencing Lanczos iteration
+12/16/17 15:10:31 v1.34.5 @ P4V1, memory use: 2.0 MB
+12/16/17 15:10:32 v1.34.5 @ P4V1, lanczos halted after 206 iterations (dim = 12954)
+12/16/17 15:10:32 v1.34.5 @ P4V1, recovered 16 nontrivial dependencies
+12/16/17 15:10:32 v1.34.5 @ P4V1, prp28 = 1883061683982153605995480249
+12/16/17 15:10:32 v1.34.5 @ P4V1, prp44 = 21960968477911939506906863855547723878140279
+12/16/17 15:10:32 v1.34.5 @ P4V1, Lanczos elapsed time = 0.8360 seconds.
+12/16/17 15:10:32 v1.34.5 @ P4V1, Sqrt elapsed time = 0.0120 seconds.
+12/16/17 15:10:32 v1.34.5 @ P4V1, SIQS elapsed time = 23.1256 seconds.
+12/16/17 15:10:32 v1.34.5 @ P4V1, 
+12/16/17 15:10:32 v1.34.5 @ P4V1, 
+12/16/17 15:10:32 v1.34.5 @ P4V1, Total factoring time = 30.7496 seconds
+02/15/18 09:28:36 v1.34.5 @ P4V1, 
+02/15/18 09:28:36 v1.34.5 @ P4V1, ****************************
+02/15/18 09:28:36 v1.34.5 @ P4V1, Starting factorization of 13371337133713371337133713371337133713371337133713371337133713371337133713370003
+02/15/18 09:28:36 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 09:28:36 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 09:28:36 v1.34.5 @ P4V1, ****************************
+02/15/18 09:28:36 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133713370003
+02/15/18 09:28:36 v1.34.5 @ P4V1, Total factoring time = 0.1301 seconds
+02/15/18 09:31:06 v1.34.5 @ P4V1, 
+02/15/18 09:31:06 v1.34.5 @ P4V1, ****************************
+02/15/18 09:31:06 v1.34.5 @ P4V1, Starting factorization of 13371337133713371337133713371337133713371337133713371337133713371337133713770343
+02/15/18 09:31:06 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 09:31:06 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 09:31:06 v1.34.5 @ P4V1, ****************************
+02/15/18 09:31:06 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C80
+02/15/18 09:31:06 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C80
+02/15/18 09:31:06 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C80
+02/15/18 09:31:06 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C80
+02/15/18 09:31:06 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+02/15/18 09:31:06 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 24.62
+02/15/18 09:31:06 v1.34.5 @ P4V1, prp15 = 603612990874963 (curve 7 stg2 B1=2000 sigma=953054894 thread=0)
+02/15/18 09:31:06 v1.34.5 @ P4V1, Finished 7 curves using Lenstra ECM method on C80 input, B1=2K, B2=gmp-ecm default
+02/15/18 09:31:06 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+02/15/18 09:31:06 v1.34.5 @ P4V1, scheduled 23 curves at B1=2000 toward target pretesting depth of 20.00
+02/15/18 09:31:06 v1.34.5 @ P4V1, Finished 23 curves using Lenstra ECM method on C65 input, B1=2K, B2=gmp-ecm default
+02/15/18 09:31:06 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+02/15/18 09:31:06 v1.34.5 @ P4V1, scheduled 72 curves at B1=11000 toward target pretesting depth of 20.00
+02/15/18 09:31:08 v1.34.5 @ P4V1, Finished 72 curves using Lenstra ECM method on C65 input, B1=11K, B2=gmp-ecm default
+02/15/18 09:31:08 v1.34.5 @ P4V1, final ECM pretested depth: 20.24
+02/15/18 09:31:08 v1.34.5 @ P4V1, scheduler: switching to sieve method
+02/15/18 09:31:08 v1.34.5 @ P4V1, starting SIQS on c65: 22152169247270577917871029754649488086984272967123107985135935261
+02/15/18 09:31:08 v1.34.5 @ P4V1, random seeds: 353274473, 3189600791
+02/15/18 09:31:08 v1.34.5 @ P4V1, ==== sieve params ====
+02/15/18 09:31:08 v1.34.5 @ P4V1, n = 65 digits, 214 bits
+02/15/18 09:31:08 v1.34.5 @ P4V1, factor base: 6192 primes (max prime = 133649)
+02/15/18 09:31:08 v1.34.5 @ P4V1, single large prime cutoff: 8018940 (60 * pmax)
+02/15/18 09:31:08 v1.34.5 @ P4V1, allocating 3 large prime slices of factor base
+02/15/18 09:31:08 v1.34.5 @ P4V1, buckets hold 2048 elements
+02/15/18 09:31:08 v1.34.5 @ P4V1, using 32k sieve core
+02/15/18 09:31:08 v1.34.5 @ P4V1, sieve interval: 4 blocks of size 32768
+02/15/18 09:31:08 v1.34.5 @ P4V1, polynomial A has ~ 8 factors
+02/15/18 09:31:08 v1.34.5 @ P4V1, using multiplier of 1
+02/15/18 09:31:08 v1.34.5 @ P4V1, using SPV correction of 20 bits, starting at offset 33
+02/15/18 09:31:08 v1.34.5 @ P4V1, using SSE2 for trial division and x64 sieve scanning
+02/15/18 09:31:08 v1.34.5 @ P4V1, using SSE4.1 enabled 32k sieve core
+02/15/18 09:31:08 v1.34.5 @ P4V1, using SSE2 for resieving 13-16 bit primes
+02/15/18 09:31:08 v1.34.5 @ P4V1, trial factoring cutoff at 73 bits
+02/15/18 09:31:08 v1.34.5 @ P4V1, ==== sieving started (1 thread) ====
+02/15/18 09:31:14 v1.34.5 @ P4V1, trial division touched 434793 sieve locations out of 5318115328
+02/15/18 09:31:14 v1.34.5 @ P4V1, 6269 relations found: 3063 full + 3206 from 29986 partial, using 20287 polys (320 A polys)
+02/15/18 09:31:14 v1.34.5 @ P4V1, on average, sieving found 1.63 rels/poly and 5391.85 rels/sec
+02/15/18 09:31:14 v1.34.5 @ P4V1, trial division touched 434793 sieve locations out of 5318115328
+02/15/18 09:31:14 v1.34.5 @ P4V1, ==== post processing stage (msieve-1.38) ====
+02/15/18 09:31:14 v1.34.5 @ P4V1, begin with 33049 relations
+02/15/18 09:31:14 v1.34.5 @ P4V1, reduce to 9015 relations in 2 passes
+02/15/18 09:31:14 v1.34.5 @ P4V1, recovered 9015 relations
+02/15/18 09:31:14 v1.34.5 @ P4V1, recovered 7310 polynomials
+02/15/18 09:31:14 v1.34.5 @ P4V1, freed 2 duplicate relations
+02/15/18 09:31:14 v1.34.5 @ P4V1, attempting to build 6267 cycles
+02/15/18 09:31:14 v1.34.5 @ P4V1, found 6267 cycles in 1 passes
+02/15/18 09:31:14 v1.34.5 @ P4V1, distribution of cycle lengths:
+02/15/18 09:31:14 v1.34.5 @ P4V1,    length 1 : 3063
+02/15/18 09:31:14 v1.34.5 @ P4V1,    length 2 : 3204
+02/15/18 09:31:14 v1.34.5 @ P4V1, largest cycle: 2 relations
+02/15/18 09:31:14 v1.34.5 @ P4V1, matrix is 6192 x 6267 (0.8 MB) with weight 157995 (25.21/col)
+02/15/18 09:31:14 v1.34.5 @ P4V1, sparse part has weight 157995 (25.21/col)
+02/15/18 09:31:14 v1.34.5 @ P4V1, filtering completed in 3 passes
+02/15/18 09:31:14 v1.34.5 @ P4V1, matrix is 5611 x 5675 (0.7 MB) with weight 141232 (24.89/col)
+02/15/18 09:31:14 v1.34.5 @ P4V1, sparse part has weight 141232 (24.89/col)
+02/15/18 09:31:14 v1.34.5 @ P4V1, commencing Lanczos iteration
+02/15/18 09:31:14 v1.34.5 @ P4V1, memory use: 1.0 MB
+02/15/18 09:31:14 v1.34.5 @ P4V1, lanczos halted after 90 iterations (dim = 5609)
+02/15/18 09:31:14 v1.34.5 @ P4V1, recovered 63 nontrivial dependencies
+02/15/18 09:31:14 v1.34.5 @ P4V1, prp45 = 108744336985414157116047691795357377191080381
+02/15/18 09:31:14 v1.34.5 @ P4V1, prp21 = 203708715886895712481
+02/15/18 09:31:14 v1.34.5 @ P4V1, Lanczos elapsed time = 0.1220 seconds.
+02/15/18 09:31:14 v1.34.5 @ P4V1, Sqrt elapsed time = 0.0060 seconds.
+02/15/18 09:31:14 v1.34.5 @ P4V1, SIQS elapsed time = 6.2568 seconds.
+02/15/18 09:31:14 v1.34.5 @ P4V1, 
+02/15/18 09:31:14 v1.34.5 @ P4V1, 
+02/15/18 09:31:14 v1.34.5 @ P4V1, Total factoring time = 8.1822 seconds
+02/15/18 09:35:53 v1.34.5 @ P4V1, 
+02/15/18 09:35:53 v1.34.5 @ P4V1, ****************************
+02/15/18 09:35:53 v1.34.5 @ P4V1, Starting factorization of 13371337133713371337133713371337133713371337133713371337133713371337133731171757
+02/15/18 09:35:53 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 09:35:53 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 09:35:53 v1.34.5 @ P4V1, ****************************
+02/15/18 09:35:53 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133731171757
+02/15/18 09:35:53 v1.34.5 @ P4V1, Total factoring time = 0.0619 seconds
+02/15/18 09:37:13 v1.34.5 @ P4V1, 
+02/15/18 09:37:13 v1.34.5 @ P4V1, ****************************
+02/15/18 09:37:13 v1.34.5 @ P4V1, Starting factorization of 178792656743422116989176665441321609908765654043152089986476395414318909876736227344986723894911743399562478500075230045256750897612013426565178770078484605271
+02/15/18 09:37:13 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 09:37:13 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 09:37:13 v1.34.5 @ P4V1, ****************************
+02/15/18 09:37:13 v1.34.5 @ P4V1, Fermat method found factors:
+02/15/18 09:37:13 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133731171757
+02/15/18 09:37:13 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133713370003
+02/15/18 09:37:13 v1.34.5 @ P4V1, Total factoring time = 0.1224 seconds
+02/15/18 10:05:05 v1.34.5 @ P4V1, 
+02/15/18 10:05:05 v1.34.5 @ P4V1, ****************************
+02/15/18 10:05:05 v1.34.5 @ P4V1, Starting factorization of 25463358440556524980765950650165998791913209914398941043292028085270082370157742900096102715333981091621397959391798931129381996438863159439866185661308390325201773536606755669484476335682389238709901390872911992454493729991632198979087511943206118668958247366987398644836889035652148002440534320977104020931258255596956859285469333970656532273768991334767600995620089990872708220439884714109323155082983399756238887925376800422137372664900154299361838784707596442879773654878314539153003469186727257108274987632455666093779954261344821783876831224993978031361516508784580262978597720615680883403688701635726798671867
+02/15/18 10:05:05 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 10:05:05 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 10:05:05 v1.34.5 @ P4V1, ****************************
+02/15/18 10:05:05 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C617
+02/15/18 10:05:05 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C617
+02/15/18 10:05:05 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C617
+02/15/18 10:05:05 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C617
+02/15/18 10:08:49 v1.34.5 @ P4V1, 
+02/15/18 10:08:49 v1.34.5 @ P4V1, ****************************
+02/15/18 10:08:49 v1.34.5 @ P4V1, Starting factorization of 178792656743422116989176665441321609908765654043152089986476395414318909876736227344986723894911743399562478500075230045256750897612013426565178770078484605271
+02/15/18 10:08:49 v1.34.5 @ P4V1, using pretesting plan: normal
+02/15/18 10:08:49 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/15/18 10:08:49 v1.34.5 @ P4V1, ****************************
+02/15/18 10:08:49 v1.34.5 @ P4V1, Fermat method found factors:
+02/15/18 10:08:49 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133731171757
+02/15/18 10:08:49 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133713370003
+02/15/18 10:08:49 v1.34.5 @ P4V1, Total factoring time = 0.1186 seconds
+02/17/18 00:10:48 v1.34.5 @ P4V1, 
+02/17/18 00:10:48 v1.34.5 @ P4V1, ****************************
+02/17/18 00:10:48 v1.34.5 @ P4V1, Starting factorization of 109765067287743547347068051916563247396312072633681549458222295819831116303726540744063224914879222024737572906451514190963837522161036906719615364412226129324176248131661408793388229223225663229915266782027908206640058835805543815172008872943671770113736018905952701500189580152812093796295555869648045713209
+02/17/18 00:10:48 v1.34.5 @ P4V1, using pretesting plan: normal
+02/17/18 00:10:48 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/17/18 00:10:48 v1.34.5 @ P4V1, ****************************
+02/17/18 00:10:48 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C309
+02/17/18 00:10:48 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C309
+02/17/18 00:10:48 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C309
+02/17/18 00:10:48 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C309
+02/17/18 00:10:48 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+02/17/18 00:10:48 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 95.08
+02/17/18 00:10:49 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C309 input, B1=2K, B2=gmp-ecm default
+02/17/18 00:10:49 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+02/17/18 00:10:49 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 95.08
+02/17/18 00:10:57 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C309 input, B1=11K, B2=gmp-ecm default
+02/17/18 00:10:57 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+02/17/18 00:10:57 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 95.08
+02/17/18 00:12:25 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C309 input, B1=50K, B2=gmp-ecm default
+02/17/18 00:12:25 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C309
+02/17/18 00:12:30 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+02/17/18 00:12:30 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 95.08
+02/23/18 06:04:34 v1.34.5 @ P4V1, 
+02/23/18 06:04:34 v1.34.5 @ P4V1, ****************************
+02/23/18 06:04:34 v1.34.5 @ P4V1, Starting factorization of 178792656743422116989176665441321609908765654043152089986476395414318909876736227344986723894911743399562478500075230045256750897612013426565178770078484605271
+02/23/18 06:04:34 v1.34.5 @ P4V1, using pretesting plan: normal
+02/23/18 06:04:34 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/23/18 06:04:34 v1.34.5 @ P4V1, ****************************
+02/23/18 06:04:34 v1.34.5 @ P4V1, Fermat method found factors:
+02/23/18 06:04:34 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133731171757
+02/23/18 06:04:34 v1.34.5 @ P4V1, prp80 = 13371337133713371337133713371337133713371337133713371337133713371337133713370003
+02/23/18 06:04:34 v1.34.5 @ P4V1, Total factoring time = 0.2677 seconds
+02/23/18 15:17:12 v1.34.5 @ P4V1, 
+02/23/18 15:17:12 v1.34.5 @ P4V1, ****************************
+02/23/18 15:17:12 v1.34.5 @ P4V1, Starting factorization of 481198641867289038243532927701020249905433964052522187774270437592775342143784702291483427578470414194602731404343532513840453569385856109993166637836189117235549985093499643724363002153995995953731212190003813128852867940536928597102669895224512199695772684398151784349020282852823384810308548307944122748283
+02/23/18 15:17:12 v1.34.5 @ P4V1, using pretesting plan: normal
+02/23/18 15:17:12 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+02/23/18 15:17:12 v1.34.5 @ P4V1, ****************************
+02/23/18 15:17:12 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C309
+02/23/18 15:17:12 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C309
+02/23/18 15:17:12 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C309
+02/23/18 15:17:13 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C309
+02/23/18 15:17:13 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+02/23/18 15:17:13 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 95.08
+02/23/18 15:17:14 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C309 input, B1=2K, B2=gmp-ecm default
+02/23/18 15:17:14 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+02/23/18 15:17:14 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 95.08
+02/23/18 15:17:24 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C309 input, B1=11K, B2=gmp-ecm default
+02/23/18 15:17:24 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+02/23/18 15:17:24 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 95.08
+02/23/18 15:19:32 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C309 input, B1=50K, B2=gmp-ecm default
+02/23/18 15:19:32 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C309
+02/23/18 15:19:39 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+02/23/18 15:19:39 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 95.08
+02/23/18 15:42:34 v1.34.5 @ P4V1, Finished 430 curves using Lenstra ECM method on C309 input, B1=250K, B2=gmp-ecm default
+02/23/18 15:42:34 v1.34.5 @ P4V1, pm1: starting B1 = 15M, B2 = gmp-ecm default on C309
+02/23/18 15:42:50 v1.34.5 @ P4V1, current ECM pretesting depth: 30.45
+02/23/18 15:42:50 v1.34.5 @ P4V1, scheduled 904 curves at B1=1000000 toward target pretesting depth of 95.08
+03/03/18 02:45:28 v1.34.5 @ P4V1, 
+03/03/18 02:45:28 v1.34.5 @ P4V1, ****************************
+03/03/18 02:45:28 v1.34.5 @ P4V1, Starting factorization of 130179694811800312207570599375436760545290337088218304459561443227543838919879210106932826718964709957832014565448443505831989481273635332857613422064190271780814608757655668142589722653217662666575372999741816137327886126560719421767007673263336883710369488981181599726557800745601802965236812530181411723711
+03/03/18 02:45:28 v1.34.5 @ P4V1, using pretesting plan: normal
+03/03/18 02:45:28 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+03/03/18 02:45:28 v1.34.5 @ P4V1, ****************************
+03/03/18 02:45:28 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C309
+03/03/18 02:45:28 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C309
+03/03/18 02:45:28 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C309
+03/03/18 02:45:29 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C309
+03/03/18 02:45:29 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+03/03/18 02:45:29 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 95.08
+03/03/18 02:45:29 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C309 input, B1=2K, B2=gmp-ecm default
+03/03/18 02:45:29 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+03/03/18 02:45:29 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 95.08
+03/03/18 02:45:37 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C309 input, B1=11K, B2=gmp-ecm default
+03/03/18 02:45:37 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+03/03/18 02:45:37 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 95.08
+03/03/18 02:47:08 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C309 input, B1=50K, B2=gmp-ecm default
+03/03/18 02:47:08 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C309
+03/03/18 02:47:13 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+03/03/18 02:47:13 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 95.08
+03/03/18 03:01:06 v1.34.5 @ P4V1, Finished 430 curves using Lenstra ECM method on C309 input, B1=250K, B2=gmp-ecm default
+03/03/18 03:01:06 v1.34.5 @ P4V1, pm1: starting B1 = 15M, B2 = gmp-ecm default on C309
+03/03/18 03:01:21 v1.34.5 @ P4V1, current ECM pretesting depth: 30.45
+03/03/18 03:01:21 v1.34.5 @ P4V1, scheduled 904 curves at B1=1000000 toward target pretesting depth of 95.08
+03/17/18 12:22:23 v1.34.5 @ P4V1, 
+03/17/18 12:22:23 v1.34.5 @ P4V1, ****************************
+03/17/18 12:22:23 v1.34.5 @ P4V1, Starting factorization of 7988022407582105491008531322706969145232626823197981612770296593112642069183732812236423714293321127359228414993810947667580855819011602182257319554406329
+03/17/18 12:22:23 v1.34.5 @ P4V1, using pretesting plan: normal
+03/17/18 12:22:23 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+03/17/18 12:22:23 v1.34.5 @ P4V1, ****************************
+03/17/18 12:22:23 v1.34.5 @ P4V1, rho: x^2 + 3, starting 1000 iterations on C154
+03/17/18 12:22:23 v1.34.5 @ P4V1, rho: x^2 + 2, starting 1000 iterations on C154
+03/17/18 12:22:23 v1.34.5 @ P4V1, rho: x^2 + 1, starting 1000 iterations on C154
+03/17/18 12:22:23 v1.34.5 @ P4V1, pm1: starting B1 = 150K, B2 = gmp-ecm default on C154
+03/17/18 12:22:24 v1.34.5 @ P4V1, current ECM pretesting depth: 0.00
+03/17/18 12:22:24 v1.34.5 @ P4V1, scheduled 30 curves at B1=2000 toward target pretesting depth of 47.38
+03/17/18 12:22:24 v1.34.5 @ P4V1, Finished 30 curves using Lenstra ECM method on C154 input, B1=2K, B2=gmp-ecm default
+03/17/18 12:22:24 v1.34.5 @ P4V1, current ECM pretesting depth: 15.18
+03/17/18 12:22:24 v1.34.5 @ P4V1, scheduled 74 curves at B1=11000 toward target pretesting depth of 47.38
+03/17/18 12:22:27 v1.34.5 @ P4V1, Finished 74 curves using Lenstra ECM method on C154 input, B1=11K, B2=gmp-ecm default
+03/17/18 12:22:27 v1.34.5 @ P4V1, current ECM pretesting depth: 20.24
+03/17/18 12:22:27 v1.34.5 @ P4V1, scheduled 214 curves at B1=50000 toward target pretesting depth of 47.38
+03/17/18 12:23:01 v1.34.5 @ P4V1, Finished 214 curves using Lenstra ECM method on C154 input, B1=50K, B2=gmp-ecm default
+03/17/18 12:23:01 v1.34.5 @ P4V1, pm1: starting B1 = 3750K, B2 = gmp-ecm default on C154
+03/17/18 12:23:03 v1.34.5 @ P4V1, current ECM pretesting depth: 25.33
+03/17/18 12:23:03 v1.34.5 @ P4V1, scheduled 430 curves at B1=250000 toward target pretesting depth of 47.38
+03/17/18 12:30:55 v1.34.5 @ P4V1, Finished 430 curves using Lenstra ECM method on C154 input, B1=250K, B2=gmp-ecm default
+03/17/18 12:30:55 v1.34.5 @ P4V1, pm1: starting B1 = 15M, B2 = gmp-ecm default on C154
+03/17/18 12:31:13 v1.34.5 @ P4V1, current ECM pretesting depth: 30.45
+03/17/18 12:31:13 v1.34.5 @ P4V1, scheduled 904 curves at B1=1000000 toward target pretesting depth of 47.38
+03/24/18 21:15:52 v1.34.5 @ P4V1, 
+03/24/18 21:15:52 v1.34.5 @ P4V1, ****************************
+03/24/18 21:15:52 v1.34.5 @ P4V1, Starting factorization of 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+03/24/18 21:15:52 v1.34.5 @ P4V1, using pretesting plan: normal
+03/24/18 21:15:52 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+03/24/18 21:15:52 v1.34.5 @ P4V1, ****************************
+03/24/18 21:15:52 v1.34.5 @ P4V1, prp617 = 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+03/24/18 21:15:52 v1.34.5 @ P4V1, Total factoring time = 0.3069 seconds
+04/18/18 00:13:42 v1.34.5 @ P4V1, 
+04/18/18 00:13:42 v1.34.5 @ P4V1, ****************************
+04/18/18 00:13:42 v1.34.5 @ P4V1, Starting factorization of 123123
+04/18/18 00:13:42 v1.34.5 @ P4V1, using pretesting plan: normal
+04/18/18 00:13:42 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+04/18/18 00:13:42 v1.34.5 @ P4V1, ****************************
+04/18/18 00:13:42 v1.34.5 @ P4V1, div: found prime factor = 3
+04/18/18 00:13:42 v1.34.5 @ P4V1, div: found prime factor = 7
+04/18/18 00:13:42 v1.34.5 @ P4V1, div: found prime factor = 11
+04/18/18 00:13:42 v1.34.5 @ P4V1, div: found prime factor = 13
+04/18/18 00:13:42 v1.34.5 @ P4V1, div: found prime factor = 41
+04/18/18 00:13:42 v1.34.5 @ P4V1, Total factoring time = 0.0006 seconds
+04/18/18 00:14:33 v1.34.5 @ P4V1, 
+04/18/18 00:14:33 v1.34.5 @ P4V1, ****************************
+04/18/18 00:14:33 v1.34.5 @ P4V1, Starting factorization of 123123
+04/18/18 00:14:33 v1.34.5 @ P4V1, using pretesting plan: normal
+04/18/18 00:14:33 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+04/18/18 00:14:33 v1.34.5 @ P4V1, ****************************
+04/18/18 00:14:33 v1.34.5 @ P4V1, div: found prime factor = 3
+04/18/18 00:14:33 v1.34.5 @ P4V1, div: found prime factor = 7
+04/18/18 00:14:33 v1.34.5 @ P4V1, div: found prime factor = 11
+04/18/18 00:14:33 v1.34.5 @ P4V1, div: found prime factor = 13
+04/18/18 00:14:33 v1.34.5 @ P4V1, div: found prime factor = 41
+04/18/18 00:14:33 v1.34.5 @ P4V1, Total factoring time = 0.0005 seconds
+04/18/18 00:24:16 v1.34.5 @ P4V1, 
+04/18/18 00:24:16 v1.34.5 @ P4V1, ****************************
+04/18/18 00:24:16 v1.34.5 @ P4V1, Starting factorization of 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:24:16 v1.34.5 @ P4V1, using pretesting plan: normal
+04/18/18 00:24:16 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+04/18/18 00:24:16 v1.34.5 @ P4V1, ****************************
+04/18/18 00:24:16 v1.34.5 @ P4V1, prp617 = 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:24:16 v1.34.5 @ P4V1, Total factoring time = 0.1913 seconds
+04/18/18 00:25:31 v1.34.5 @ P4V1, 
+04/18/18 00:25:31 v1.34.5 @ P4V1, ****************************
+04/18/18 00:25:31 v1.34.5 @ P4V1, Starting factorization of 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:25:31 v1.34.5 @ P4V1, using pretesting plan: normal
+04/18/18 00:25:31 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+04/18/18 00:25:31 v1.34.5 @ P4V1, ****************************
+04/18/18 00:25:31 v1.34.5 @ P4V1, prp617 = 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:25:31 v1.34.5 @ P4V1, Total factoring time = 0.2020 seconds
+04/18/18 00:25:40 v1.34.5 @ P4V1, 
+04/18/18 00:25:40 v1.34.5 @ P4V1, ****************************
+04/18/18 00:25:40 v1.34.5 @ P4V1, Starting factorization of 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:25:40 v1.34.5 @ P4V1, using pretesting plan: normal
+04/18/18 00:25:40 v1.34.5 @ P4V1, no tune info: using qs/gnfs crossover of 95 digits
+04/18/18 00:25:40 v1.34.5 @ P4V1, ****************************
+04/18/18 00:25:40 v1.34.5 @ P4V1, prp617 = 36511974694593690272644354864534934200522045623187752384823594729275730789191680514905027084950729514148679507005058047146031869995768765034876499069680202424692876360895377987654388335335689563844006584610187090074654410815638237841872991488680663410743679302763304922852173164820002226109196761249018548478251723505481964749218302723593776180246783117481280725673997940309717028451914887375722437833384305529884261542397905220138488012276363046571670926597766521674838665982314321651508118240682649024780239598188845543243957916954287138820155843952556411235376764737602711594439293285811102883736229645274092478611
+04/18/18 00:25:40 v1.34.5 @ P4V1, Total factoring time = 0.2012 seconds

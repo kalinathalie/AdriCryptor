@@ -121,6 +121,10 @@ def rsa():
     	number = raw_input("Enter your N number: ")
     	if(factordb(number)):
     		exit(1)
+    	elif(neca(number)):
+    		exit(1)
+    	elif(yafu(number)):
+    		exit(1)
 
 
 def factordb(number):
@@ -133,7 +137,24 @@ def factordb(number):
     	print "Second prime: " + q
     	return True
     else:
+    	print "[+] factordb fail!"
     	return False
+
+def neca(number):
+	os.system("./neca/neca "+ number +" > neca_output")
+	file = open("neca_output")
+	linhas = file.readlines()
+	if "Given key does not seem to be weak" in linhas[8]:
+		print "[+] Neca fail!"
+		return False
+	else:
+		print "Please, wait :)"
+		numeros = linhas[-1].split(" * ")
+		print "First prime: " + numeros[0][4:]
+    	print "Second prime: " + numeros[1]
+
+def yafu(number):
+	os.system("echo \"factor("+number+")\" | wine ./YAFU/yafu-x64.exe")
 
 def alphabetic_cipher():
     print "\nChoose the cipher!"

@@ -4,10 +4,10 @@ ctf multi crypto tool
 # Implemented:
 -Ceaser
 -Vignere
+-RSA
 
 # Todo:
 -Transposition
 -Enigma
--RSA
 -DES
 -Eliptic Curve

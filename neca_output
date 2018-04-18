@@ -1,0 +1,9 @@
+NECA - Not Even Coppersmith's Attack
+ROCA weak RSA key attack by Jannis Harder (me@jix.one)
+
+ *** Currently only 512-bit keys are supported ***
+
+ *** OpenMP support enabled ***
+
+N = 178792656743422116989176665441321609908765654043152089986476395414318909876736227344986723894911743399562478500075230045256750897612013426565178770078484605271
+Given key does not seem to be weak.
