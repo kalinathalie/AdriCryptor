@@ -5,9 +5,11 @@ ctf multi crypto tool
 -Ceaser
 -Vignere
 -RSA
+-Enigma
+-Diffie-Hellman
+
 
 # Todo:
 -Transposition
--Enigma
 -DES
 -Eliptic Curve

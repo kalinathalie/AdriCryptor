@@ -111,7 +111,7 @@ def enigma():
        plugboard_settings=plug)
 
 
-    machine.set_display("LWB")
+    machine.set_display("WXC")
     print machine.process_text(text)
     exit(1)
 
@@ -142,6 +142,15 @@ def rsa():
     	elif(yafu(number)):
     		exit(1)
 
+def diffie():
+    cipher = raw_input("Enter the CIPHER: ")
+    p = raw_input("Enter the PRIME: ")
+    A = raw_input("Enter the PUBLIC KEY(A|B): ")
+    b = raw_input("Enter the PRIVATE KEY(a|b): ")
+    key = pow(A, b, p)
+    flag_hex = format(key ^ cipher, 'x')
+    print("Decrypt: "+ flag_hex.decode("hex"))
+    exit(1)
 
 def factordb(number):
     r = requests.get("https://factordb.com/index.php?query="+number, verify=False)
@@ -195,9 +204,12 @@ def symmetric_cipher():
 def asymmetric_cipher():
     print "Choose the cipher!"
     print "a)RSA"
+    print "b)Diffie-Hellman"
     n = raw_input("Enter option: ")
     if n == "a":
         rsa()
+    elif n == "b":
+        diffie()
     else:
         asymmetric_cipher()
 
