@@ -19,11 +19,6 @@ def header():
     print "           AdriCryptor.py implemented by FireShell           "
     print "                   You're using:", platform
 
-def clear():
-    if platform == "win32":
-        os.system('cls')
-    else:
-        os.system('clear')
 
 def ceaser():
     print "Choose your Ceaser option:"
@@ -55,7 +50,7 @@ def ceaser():
                 new_cipher += chr(new_letter)
             print new_cipher
     else:
-        clear()
+        os.system('clear')
         ceaser()
     exit(1)
 
@@ -95,8 +90,36 @@ def vignere():
     print "your message encrypted: " if mode == "1" else "your message decrypted: \n" + translated
     exit(1)
 
-def transposition():
+def rail():
+    print "What do yotu want to do?"
+    print "1)decrypt"
+    print "2)encrypt"
+    n = raw_input("Enter option: ")
+    cipher = raw_input("Enter your ciphertext: ")
+    if n == "1":
+        for x in range(2, len(cipher)/2+1):
+            rng = range(len(cipher))
+            pos = fence(rng, x)
+            print str(x)+": "+''.join(cipher[pos.index(x)] for x in rng)
+    elif n == "2":
+        for x in range(2, len(cipher)/2+1):
+            print str(x)+": "+''.join(fence(cipher, x))
+    else:  
+        rail()
+
     exit(1)
+
+def fence(lst, numrails):
+    fence = [[None] * len(lst) for n in range(numrails)]
+    rails = range(numrails - 1) + range(numrails - 1, 0, -1)
+    for n, x in enumerate(lst):
+        fence[rails[n % len(rails)]][n] = x
+
+    if 0: # debug
+        for rail in fence:
+            print ''.join('.' if c is None else str(c) for c in rail)
+
+    return [c for rail in fence for c in rail if c is not None]
 
 def enigma():
     cipher = raw_input("Enter CIPHER: ")
@@ -152,6 +175,9 @@ def diffie():
     print("Decrypt: "+ flag_hex.decode("hex"))
     exit(1)
 
+def elliptic():
+    exit(1)
+
 def factordb(number):
     r = requests.get("https://factordb.com/index.php?query="+number, verify=False)
     vector = r.text.split("index.php?id=")
@@ -185,7 +211,7 @@ def alphabetic_cipher():
     print "\nChoose the cipher!"
     print "a) Ceaser cipher"
     print "b) Vignere cipher"
-    print "c) Transposition cipher"
+    print "c) Rail-Fence cipher"
     print "d) Enigma cipher\n"
     n = raw_input("Enter option: ")
     if n == "a":
@@ -193,7 +219,7 @@ def alphabetic_cipher():
     elif n == "b":
         vignere()
     elif n == "c":
-        transposition()
+        rail()
     elif n == "d":
         enigma()
     else:
@@ -205,16 +231,19 @@ def asymmetric_cipher():
     print "Choose the cipher!"
     print "a)RSA"
     print "b)Diffie-Hellman"
+    print "c)Elliptic curve"
     n = raw_input("Enter option: ")
     if n == "a":
         rsa()
     elif n == "b":
         diffie()
+    elif n == "c":
+        elliptic()
     else:
         asymmetric_cipher()
 
 def main():
-    clear()
+    os.system('clear')
     header()
     print "What do you wanna to decryt?"
     print "1) Polyalphabetic cipher"
