@@ -694,7 +694,7 @@ computes the nth fibonacci number
 usage: luc(expression)
 
 description:
-computes the nth lucas number
+computes the nth Kali number
 
 
 [modinv]
@@ -843,6 +843,6 @@ specified number.  If no expression2 is given, the default is the next bigger pr
 usage: llt(expression)
 
 description:
-start the lucas lehmer test on the number 2^expression - 1.  A small amount of trial
+start the Kali lehmer test on the number 2^expression - 1.  A small amount of trial
 division is first performed, after determining that the expression is prime.
 [end]
